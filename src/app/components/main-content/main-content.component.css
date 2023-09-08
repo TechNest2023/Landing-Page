@@ -1,0 +1,111 @@
+.main-content1 {
+  height: 700px;
+  background-image: url("../../../assets/alegre-lindo-animado-mujer-asiatica-sonriendo-riendo-optimista-apuntando-esquina-superior-derecha-dar-consejos-wha.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+  color: white;
+  box-sizing: border-box;
+}
+
+.f1 {
+  text-align: center;
+}
+
+.f2 {
+  display: flex;
+  gap: 20px;
+}
+
+.f3 {
+  display: flex;
+}
+
+.f4 {
+  display: flex;
+}
+
+.f5 {
+  display: flex;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  font-size: 20px;
+  margin-top: 30px;
+  gap: 15px;
+}
+
+.main-content2 {
+  height: 700px;
+  padding: 100px;
+  box-sizing: border-box;
+  background-image: url("../../../assets/8602650.png");
+  background-size: cover;
+  text-align: center;
+}
+
+.main-content3 {
+  height: 700px;
+  padding: 100px;
+  box-sizing: border-box;
+  background-image: url("../../../assets/8596567.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.main-content4 {
+  height: 700px;
+  padding: 100px;
+  box-sizing: border-box;
+  background-image: url("../../../assets/8595780.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.main-content5 {
+  height: 700px;
+  padding: 100px;
+  box-sizing: border-box;
+  background-image: url("../../../assets/8596455.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.call-to-action {
+  background-color: #17bcff;
+  width: 150px;
+  height: 80px;
+  border-radius: 30px;
+  border: 0px;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.p-mc1 {
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+}
+
+.h2-mc2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#boton2 {
+  width: 180px;
+}
