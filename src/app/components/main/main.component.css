@@ -1,0 +1,171 @@
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.postimg.cc/GpyYZ3nZ/ALEGRE-1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+
+.hero-title {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.hero-subtitle{
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 80px;
+}
+
+.hero-benefits {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.benefit{
+  padding-bottom: 5px;
+}
+
+.benefit-icon:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+.custom-button {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #5959d9; /* Color de fondo azul */
+  color: white; /* Color del texto blanco */
+  padding: 10px 20px; /* Añade espacio interno al botón */
+  margin: 10px; /* Añade espacio externo al botón */
+  border: none; /* Quita el borde */
+  border-radius: 5px; /* Añade bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+}
+
+.custom-button:hover {
+  background-color: #6c6cda; /* Color de fondo azul */
+  color: #FFFFFF; /* Cambia el color del texto a blanco */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+
+/*---------------------------*/
+
+
+.landing-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /* Ajusta la altura según tu diseño */
+  background-color: rgb(28, 120, 143); /* Fondo oscuro */
+  color: white;
+}
+
+.landing-section {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.image-container, .text-container {
+  flex: 1;
+  padding: 1rem;
+}
+
+.main-image {
+  max-width: 50%;
+  height: auto;
+}
+
+.section-title {
+  font-size: 28px; /* Ajusta el tamaño de letra */
+  padding-bottom: 5px;
+}
+
+.logos.horizontal {
+  display: flex;
+  justify-content: space-around; /* Espacio adicional entre los logos */
+}
+
+.logos.horizontal img {
+  max-width: 80px; /* Ajusta el tamaño de los logos */
+  height: auto;
+}
+
+
+p{
+  padding-bottom: 35px;
+  font-size: 15px;
+}
+
+
+
+.contact-form {
+  margin: 20px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.boton-call-to-action {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #383891; /* Color de fondo azul */
+  color: white; /* Color del texto blanco */
+  padding: 10px 20px; /* Añade espacio interno al botón */
+  margin: 10px; /* Añade espacio externo al botón */
+  border: none; /* Quita el borde */
+  border-radius: 5px; /* Añade bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+}
+
+.boton-call-to-action:hover {
+  background-color: #6c6cda; /* Cambia el color de fondo al pasar el cursor por encima */
+}
+
+
+/* Agregamos una transición suave para el hover de las imágenes */
+.main-image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+

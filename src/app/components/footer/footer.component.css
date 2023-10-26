@@ -1,0 +1,15 @@
+.footer-content {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.datos-empresa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.final {
+  text-align: center;
+}
